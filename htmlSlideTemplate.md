@@ -161,8 +161,8 @@ This is for when a field has to be marked as required.
 
 | Mistake            | Why It Happens                | Fix                             |
 | ------------------ | ----------------------------- | ------------------------------- |
-| Typos when writing attributes | Frequent and repetitive text|  Parse code for phonetic bugs and errors          |
-| Wrong or missing text in attributes       | Structural arrangement       | Verify code with your IDE |
+| Typos when writing attributes | Frequent and repetitive text|  Verify code with your IDE          |
+| Wrong or missing text in attributes       | Structural arrangement       | Parse code for phonetic bugs and errors |
 
 ---
 
@@ -236,7 +236,7 @@ What’s one thing about this topic that surprised you?
 
 **Team:** Tyler, Luke, Michael F  
 **Lesson:** HTML lesson 05 
-**Presented by:** Team 5
+**Presented by:** [Team 5
 
 > “Code it, teach it, and own it.”
 
