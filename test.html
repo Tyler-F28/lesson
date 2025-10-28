@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+</head>
+<body>
+<form action="submit_order.php" method="post">
+    <h2>Order Your Pizza</h2>
+  
+    <!-- Pizza Size -->
+    <label for="size">Choose a size:</label><br>
+    <input type="radio" id="small" name="size" value="Small" required>
+    <label for="small">Small</label><br>
+    <input type="radio" id="medium" name="size" value="Medium">
+    <label for="medium">Medium</label><br>
+    <input type="radio" id="large" name="size" value="Large">
+    <label for="large">Large</label><br><br>
+  
+    <!-- Toppings -->
+    <label>Choose your toppings:</label><br>
+    <input type="checkbox" name="toppings[]" value="Pepperoni"> Pepperoni<br>
+    <input type="checkbox" name="toppings[]" value="Mushrooms"> Mushrooms<br>
+    <input type="checkbox" name="toppings[]" value="Onions"> Onions<br>
+    <input type="checkbox" name="toppings[]" value="Olives"> Olives<br><br>
+  
+    <!-- Delivery Info -->
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+  
+    <label for="address">Delivery Address:</label><br>
+    <textarea id="address" name="address" rows="3" required></textarea><br><br>
+  
+    <!-- Submit -->
+    <button type="submit">Place Order</button>
+  </form>
+  </body>
