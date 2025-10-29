@@ -227,7 +227,7 @@ What’s one thing about this topic that surprised you?
 1. What are the three attibutes needed to reference an HTML form?
 2. What are input types and values used for?
 3. How are input types and values connected?
-4. What are the applications for HTML forms?
+4. What are some of the real-world applications for HTML forms?
 5. What are the two attributes needed to send a request with an HTML form?
 
 ---
